@@ -23,3 +23,19 @@ them. Nothing was committed.
 - The first Markdown pass of RESUME.md changed the all-caps section headings to
   title case. A text diff against the original caught it. That change was
   undone anyway when the resume was reverted.
+
+## 2026-10-12 (same session, continued)
+
+**What I asked:** Grade my Phase 0 submission (open in Brave), then rename
+RESUME to RESUME.md.
+
+**What you produced:** A checklist review of the live repo against the Stage 0
+deliverable list. Then RESUME renamed to RESUME.md, with its content unchanged.
+
+**What was wrong and how it was caught:**
+- Claude could only read Brave, not scroll it, so it couldn't see my submitted
+  text and graded the repo on GitHub instead. It said so in its answer.
+- The review caught that the resume file had no .md extension. The checklist
+  requires RESUME.md at the root, and the file was renamed to fix it.
+- The review also caught that README.md has no engagement index yet. It is
+  still open: I write that part myself.
