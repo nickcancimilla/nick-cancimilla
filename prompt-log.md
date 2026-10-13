@@ -39,3 +39,15 @@ deliverable list. Then RESUME renamed to RESUME.md, with its content unchanged.
   requires RESUME.md at the root, and the file was renamed to fix it.
 - The review also caught that README.md has no engagement index yet. It is
   still open: I write that part myself.
+
+## 2026-10-12 (same session, continued)
+
+**What I asked:** Fix the missing engagement index in README.md.
+
+**What you produced:** An "Engagements" table (engagement, capability, brief,
+decision) with one "None yet" row, added below my bio. The bio is unchanged.
+
+**What was wrong and how it was caught:**
+- The first check that the bio was unchanged failed because of how macOS `cmp`
+  handles a byte count. It was rerun a different way and the bio matched byte
+  for byte.

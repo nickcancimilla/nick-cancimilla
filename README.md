@@ -1,1 +1,7 @@
 I'm a finance major at UH Manoa, and outside of this I like to travel and am very much into AI and hiking. My background is kind of mixed. I've worked in fast food as my first job, travelled around California while working for the US Forest Service, briefly worked at the post office, served in the Coast Guard, worked at Costco and Wells Fargo, and got involved in politics for a brief moment. I've also travelled to places like Russia, twice in 2024 actually, mostly because everyone told me it was too "risky" as an American, especially as a veteran, so I had to see for myself. I started out as a CS major because I've always been curious and felt like tech was the driver of human progress, and I wanted to be involved. I left that because i'd spend hours on coding projects to the point where I was literally dreaming in code and waking up stressed out about a single line, but it got me interested in what's behind it. That led me to changing my major to finance, a good analogy I could use is if tech is the nervous system of that progress, then finance is the heartbeat that keeps capital flowing to it. 
+
+## Engagements
+
+| Engagement | Capability | Brief | Decision |
+|---|---|---|---|
+| _None yet_ | | | |
