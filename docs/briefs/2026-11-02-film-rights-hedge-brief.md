@@ -12,12 +12,12 @@ llm_used: "Codex (planning, calculations, drafting); Claude Opus 5.5 (input chec
 
 # FX Hedging Brief for the Film Rights Receivable
 
-**To:** Chief Financial Officer
-**From:** Nicholas Cancimilla
-**Created by:** Nicholas Cancimilla
-**Updated by:** Nicholas Cancimilla
-**Date Created:** November 2, 2026
-**Date Updated:** November 2, 2026
+**To:** Chief Financial Officer  
+**From:** Nicholas Cancimilla  
+**Created by:** Nicholas Cancimilla  
+**Updated by:** Nicholas Cancimilla  
+**Date Created:** November 2, 2026  
+**Date Updated:** November 2, 2026  
 **Version:** 1.1  
 **LLM Used:** Codex (planning, calculations, drafting); Claude Opus 5.5 (input checks, ECB spot rate, arithmetic verification, critique)
 
