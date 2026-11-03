@@ -51,3 +51,60 @@ decision) with one "None yet" row, added below my bio. The bio is unchanged.
 - The first check that the bio was unchanged failed because of how macOS `cmp`
   handles a byte count. It was rerun a different way and the bio matched byte
   for byte.
+
+## 2026-11-02
+
+**What I asked:** Help prepare my FIN-321 Stage 1 executive brief on FX hedging
+(scenario 28, film-rights): confirm my scenario, check the arithmetic, create a
+draft, and create capabilities/fx-hedging/README.md if the instructions require it.
+
+**What you produced:** Confirmed the scenario inputs against scenarios.md; a
+calculation note (baseline $4,232,160 at the indicative 1.1756; a 5% weaker
+euro costs $211,608; the put costs $80,640); the brief's frontmatter and
+template scaffold; a checklist; and capabilities/fx-hedging/README.md, which
+the Stage 1 checklist requires. Claude did not draft the brief's text, because
+AGENTS.md and the course rules say the brief is mine to write first.
+
+**What was wrong and how it was caught:**
+- The scenario was not in my first message. Claude asked for it, and I pasted
+  my instructor's email, which Claude checked against scenarios.md.
+- The Chrome extension was not connected, so Claude could not read the tab I
+  pointed it to. The pasted email made reading the tab unnecessary.
+
+## 2026-11-02 (same session, continued)
+
+**What I asked:** For Claude to write the Stage 1 brief draft. Claude declined to
+write it, so instead it interviewed me section by section and critiqued each of
+my answers. Then I asked it to create the draft file.
+
+**What you produced:** docs/briefs/2026-11-02-film-rights-hedge-brief.md: my
+own answers pasted unchanged into the template, plus frontmatter, a References
+list, a corrected ECB link (Croatian page to English page), and TODO comments
+listing the fixes still to make. Claude also pulled the ECB EURUSD reference rate
+for 2026-11-02 (1.1216) and checked every figure in my answers.
+
+**What was wrong and how it was caught:**
+- My ECB link pointed to the Croatian-language page; Claude caught it.
+- Claude said a fairly priced put would make expected proceeds "roughly equal"
+  to the forward's. I caught that this holds only for discounted risk-neutral
+  values, not real-world expected proceeds.
+
+## 2026-11-02 (same session, continued)
+
+**What I asked:** Review my brief (a Word draft, then a Markdown version from my
+Codex submission package), add the AI attribution, put it in the repo, push it,
+and submit on Lamaku.
+
+**What you produced:** Reviews of both versions (word count, arithmetic,
+checklist). Copied the Markdown brief and the package's
+capabilities/fx-hedging/README.md into the repo. The package README replaced
+the shorter one Claude had made, and the brief replaced the earlier scaffold.
+Added the llm_used field and the LLM Used line, crediting Codex (planning,
+calculations, drafting) and Claude (input checks, ECB spot rate, arithmetic
+verification, critique). Changed the ECB link from the Croatian page to the
+English one.
+
+**What was wrong and how it was caught:**
+- The Markdown version had dropped all AI attribution, though the Word version
+  credited Codex with drafting. Claude caught it in review and restored it.
+- The ECB link had reverted to the Croatian page; Claude caught it in review.
