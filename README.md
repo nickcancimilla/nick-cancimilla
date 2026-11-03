@@ -4,4 +4,4 @@ I'm a finance major at UH Manoa, and outside of this I like to travel and am ver
 
 | Engagement | Capability | Brief | Decision |
 |---|---|---|---|
-| _None yet_ | | | |
+| fx-hedging (film-rights) | [fx-hedging](capabilities/fx-hedging/) | [Stage 1 brief](docs/briefs/2026-11-02-film-rights-hedge-brief.md) | _Stage 5_ |
